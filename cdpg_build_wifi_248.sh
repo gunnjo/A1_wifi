@@ -4,16 +4,13 @@
 
   DHD_KO_DIR=$MYDIR/wifi
 
-  cd /host/sourcecode/bw-kn-2.3.4
-  LINUXDIR=`pwd`
+  LINUXDIR=/home/gunnjo/android_dev/A1_ICS/kernel/kernel-3.0.8
 
-  cd $MYDIR/bcm4329_fxn_248/src/dhd/linux
-  DHD_DIR=`pwd`
+  DHD_DIR=$MYDIR/bcm4329_fxn_248/src/dhd/linux
 
   export MYDIR=$MYDIR
   export prod_name=$prod_name
-  export PATH=/host/sourcecode/arm-2010q1/bin/:$PATH
-  export CROSS_COMPILE=arm-none-linux-gnueabi-
+  export CROSS_COMPILE=arm-linux-gnueabi-
   export ARCH=arm
   export HOSTENV=linux
   export HOSTOS=unix
