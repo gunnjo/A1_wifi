@@ -30,6 +30,7 @@
 
 #include <typedefs.h>
 #include <osl.h>
+#include <linux/ieee80211.h>
 
 #include <bcmutils.h>
 #include <bcmcdc.h>

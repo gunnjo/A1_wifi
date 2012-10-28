@@ -137,7 +137,7 @@ ifeq ($(TARGETOS), unix)
         	GCFLAGS += -I/tools/linux/src/linux-2.6.25-01843-gfea26b0/include/
 	else
 	ifeq ($(TARGETENV), linuxarm_omap)
-		TARGET_PREFIX = arm-none-linux-gnueabi-
+		TARGET_PREFIX = arm-linux-gnueabi-
 	else
 		TARGET_PREFIX =
 	endif

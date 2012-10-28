@@ -371,7 +371,7 @@ typedef struct _pmkid {
 
 typedef struct _pmkid_list {
 	uint32	npmkid;
-	pmkid_t	pmkid[1];
+	pmkid_t	pmkid[WLAN_PMKID_LEN];
 } pmkid_list_t;
 
 typedef struct _pmkid_cand {

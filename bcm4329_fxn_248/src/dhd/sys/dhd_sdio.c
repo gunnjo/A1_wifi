@@ -55,6 +55,7 @@
 #include <proto/ethernet.h>
 #include <proto/802.1d.h>
 #include <proto/802.11.h>
+#include <linux/ieee80211.h>
 
 #include <dngl_stats.h>
 #include <dhd.h>

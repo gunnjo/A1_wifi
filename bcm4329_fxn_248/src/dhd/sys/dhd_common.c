@@ -23,6 +23,7 @@
  *
  * $Id: dhd_common.c,v 1.5.6.8.2.6.6.69.4.25 2011-02-11 21:16:02 Exp $
  */
+#include <linux/ieee80211.h>
 #include <typedefs.h>
 #include <osl.h>
 

@@ -24,11 +24,13 @@
  * $Id: wl_iw.c,v 1.51.4.9.2.6.4.142.4.78 2011-02-11 21:27:52 Exp $
  */
 
+#include <linux/ieee80211.h>
 #include <wlioctl.h>
 
 #include <typedefs.h>
 #include <linuxver.h>
 #include <osl.h>
+#include <linux/sched.h>
 
 #include <bcmutils.h>
 #include <bcmendian.h>

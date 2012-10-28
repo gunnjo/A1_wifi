@@ -37,6 +37,7 @@
 #include <linux/mmc/core.h>
 #include <linux/mmc/sdio_func.h>
 #include <linux/mmc/sdio_ids.h>
+#include <linux/ieee80211.h>
 
 #include <dngl_stats.h>
 #include <dhd.h>

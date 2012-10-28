@@ -28,6 +28,7 @@
 #include <linuxver.h>
 #include <osl.h>
 #include <bcmutils.h>
+#include <linux/ieee80211.h>
 
 #include <dngl_stats.h>
 #include <dhd.h>

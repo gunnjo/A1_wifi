@@ -51,6 +51,7 @@
 #include <bcmutils.h>
 #include <bcmendian.h>
 
+#include <linux/ieee80211.h>
 #include <proto/ethernet.h>
 #include <dngl_stats.h>
 #include <dhd.h>
@@ -58,6 +59,8 @@
 #include <dhd_proto.h>
 #include <dhd_dbg.h>
 
+struct sched_param;
+int setScheduler(struct task_struct *p, int policy, struct sched_param *param);
 /*
  * NOTE: to enable keep alive, define KEEP_ALIVE here
  * or in the makefile, also must use -keepalive- firmware

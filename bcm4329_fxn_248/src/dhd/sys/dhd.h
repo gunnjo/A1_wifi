@@ -409,8 +409,6 @@ extern int dhd_customer_oob_irq_map(unsigned long *irq_flags_ptr);
 extern void dhd_os_sdtxlock(dhd_pub_t * pub);
 extern void dhd_os_sdtxunlock(dhd_pub_t * pub);
 
-int setScheduler(struct task_struct *p, int policy, struct sched_param *param);
-
 typedef struct {
 	uint32 limit;		/* Expiration time (usec) */
 	uint32 increment;	/* Current expiration increment (usec) */
