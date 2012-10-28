@@ -1,1 +1,4 @@
 *.ko
+out
+cscope.files
+cscope.out
